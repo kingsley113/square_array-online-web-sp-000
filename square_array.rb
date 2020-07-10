@@ -3,7 +3,7 @@ def square_array(array)
 square_numbers = array
 counter = 0
   array.each do | number |
-    square_numbers[0] = number * number
+    square_numbers[counter] = number * number
     counter += 1
     puts "#{square_numbers}"
   end
