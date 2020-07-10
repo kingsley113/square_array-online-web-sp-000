@@ -1,9 +1,10 @@
 def square_array(array)
   # your code here
 square_numbers = array
-
+counter = 0
   array.each do | number |
-    square_numbers = number * number
+    square_numbers[0] = number * number
+    counter += 1
   end
 square_numbers
 end
