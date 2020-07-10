@@ -7,7 +7,7 @@ counter = 0
     counter += 1
     #puts "#{square_numbers}"
   end
-square_numbers
+array
 end
 
 #numbers = [1,2,3,4,5]
