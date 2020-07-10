@@ -5,3 +5,5 @@ def square_array(array)
     puts #{square}
   end
 end
+
+square_array(1,2,3,4,5)
